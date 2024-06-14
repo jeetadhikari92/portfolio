@@ -6,6 +6,7 @@ import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import { useState } from "react";
 import MagicButton from "./MagicButton";
+import Lottie from "react-lottie";
 
 export const BentoGrid = ({
   className,
@@ -61,7 +62,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "jeet.adhikari1992@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -133,10 +134,8 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                {/* <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span> */}
               </div>
               <div className="flex flex-col gap-1 md:gap-1 lg:gap-3">
-                {/* <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span> */}
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
@@ -151,6 +150,12 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
+              <div
+                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                  }`}
+              >
+                <Lottie options={defaultOptions} height={200} width={400} />
+              </div>
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
