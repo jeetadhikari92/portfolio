@@ -14,10 +14,10 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map(({title, link, des, img, iconLists}) => (
+        {projects.map(({title, link, des, img, iconLists}, id) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-            key={link}
+            key={id}
           >
             <PinContainer
               title={link}
@@ -28,9 +28,9 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img loading="lazy" src="/bg.png" alt="bgimg" />
                 </div>
-                <img
+                <img loading="lazy"
                   src={img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
@@ -61,7 +61,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img loading="lazy" src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>
