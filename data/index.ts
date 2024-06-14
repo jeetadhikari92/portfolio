@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Frontend developer with over 8 years of experience in building complicated, responsive and modern applications",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Have experience in working with teams across the globe.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "I have leadership experience and always ready to take initiatives and its responsibility",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -48,8 +48,8 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Currently building a fun project on sports tournament polling and social application.",
+      description: "Pred2Win",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -58,7 +58,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Do you have an interesting opportunity for me?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -71,102 +71,74 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Case Manager core library - Backbase",
+      des: "Created an employee facing core banking FE components library with Backbase used to build and configure secured employee facing banking application. It would allow developers to integrate different banking journeys.",
+      img: "/case-manager.png",
+      iconLists: ["/angular.svg", "/ts.svg", "/reactivex.svg", "/nx.svg", "/dock.svg"],
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "MAGIC - FedEx",
+      des: "MAGIC is a set of high traffic customer facing application of FedEx Rating and shipping built on Angular. People or big businesses can put up the details of the package(s) and get rates and move forward with shipping.",
+      img: "/fedEx.jpeg",
+      iconLists: ["/angular.svg", "/ts.svg", "/bootstrap.svg", "/js.svg", "/storybook.svg"],
+      link: "https://www.fedex.com/en-us/online/rating.html#",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Smart Admin - Mphasis",
+      des: "An Admin dashboard for our client FedEx to set up logistic configuration for different countries. It would get rid of any manual process like uploading country wise translations files, user role configurations etc.",
+      img: "/smart-admin.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "nodejs.svg"]
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "NgVoting",
+      des: "ng-voting is a reusable Angular component that can be used to easily implement a voting platform in your app. It is responsive and completely customizable. This component was made for a fun Football polling platform.",
+      img: "/ngvoting.gif",
+      iconLists: ["/angular.svg", "/sass.svg", "/html.svg"],
+      link: "https://socket.dev/npm/package/ng-voting",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Having worked with Jeet for over a year on a major Digital program, he has grown in the role as a font-end developer and has become very capable in the world of Angular development. As a collaborative team player, he is highly motivated and is always looking for innovative solutions to problems and I feel he would be a valuable asset to any development team. Would highly recommend Jeet.",
+      name: "Karl Desmond",
+      title: "Manager, XI Consulting at BearingPoint",
+      img: "",
+      subtitle: "Karl worked with Jeet as Director of IT Architecure at FedEx"
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+        "Next to the fact that Jeet is an amazing guitar player, he is even better as a front-end dev. Jeet has the natural drive to better himself, his skills and the product he is working on. Always curious on the business reasons behind IT features, he is a great partner in translating stories to experiences. Jeet was a rockstar when we had a very tight deadline on a complex feature at FedEx, and worked day and night to deliver as promised. The result was above all expectations, targets were met and stakeholders in awe how we could have got this done in the timeframe. I would hire Jeet again in a heartbeat when the opportunity presents itself.",
+      name: "Hensen Blaauw",
+      title: "Senior Product Owner Freemium @DPG",
+      subtitle: "Hensen worked with Jeet as Product Owner at FedEx",
+      img: ""
+    }
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "Backbase",
+      img: "",
+      nameImg: "/backbase-logo.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "FedEx",
+      img: "",
+      nameImg: "/fedex-logo.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
+      name: "Mphasis",
+      img: "",
+      nameImg: "/mphasis-logo.svg",
+    }
   ];
   
   export const workExperience = [
