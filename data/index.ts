@@ -144,45 +144,43 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Senior Frontend Developer - Backbase",
+      desc: "Lead the migration of Digital sales Frontend products from Portal to Portalless. * Helped in designing the structure of FE core library for digital sales, and also lead the monthly release for FE. * Hosting FE chapter meetings, sharing knowledge among teams and drive initiatives.* Right now also working as DevOps for Digital sales tribe, helping in automating release process, and built new tools to reduce monthly manual release work for FEs, and speeding up the release process.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Frontend Developer - Backbase",
+      desc: "Working as an R&D frontend developer to contribute in building banking widgets that can be tied together to build banking applications, used by well known banks across continents. • Building FE libraries, for portal applications. • Taking responsibilities, and collaborating with different teams for resolving all dependencies.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Frontend Developer - FedEx",
+      desc: "Have contributed in building user friendly and responsive front end for the Rating and Shipping application for FedEx which are currently live. https://www.fedex.com/en-us/online/rating.html • Worked in SAFe Agile along with seven different teams located internationally to align and work on a single product. • Built a re-usable UI Library using Angular, which are currently used in many projects within organisation.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Associate Software Engineer - Mphasis",
+      desc: "Started as a fresher, and got the opportunity to work at client’s location (Netherlands) within 2.5 years of experience. Build 'Smart Admin' from scratch while working with React, CSS, Javascript, HTML, NodeJs Taken part in many FE guilds, to discuss about FE technologies and how we can improve the existing scenarios.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
-    },
+    }
   ];
   
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
+      link: "https://github.com/jeetadhikari92"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/jeet-adhikari-645447136/"
     },
   ];

@@ -14,7 +14,7 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map(({title, link, des, img, iconLists}, idx) => (
+        {projects.map(({title, link, des, img, iconLists}) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={link}
@@ -69,9 +69,9 @@ const RecentProjects = () => {
                 <div className="flex justify-center items-center">
                   {link && 
                     <>
-                      <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      <a href={link} className="flex lg:text-xl md:text-xs text-sm text-purple">
                         Check Live Site
-                      </p>
+                      </a>
                       <FaLocationArrow className="ms-3" color="#CBACF9" /> 
                     </>
                   }
